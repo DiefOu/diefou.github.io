@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Taiki Takinami"
   # avatar : "/assets/images/bio-photo.jpg"
-  # bio    : "I've recently graduated from my undergraduate studies and have an interest in cybersecurity."
+  bio    : ""
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
