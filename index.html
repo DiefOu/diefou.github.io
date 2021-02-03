@@ -25,18 +25,48 @@ author_profile: true
     <a href="tel:16476273077">+1 647 627 3077</a>
 </p>
 My interests include cybersecurity, penetration testing, and web development. I have previously worked with the following: Python, Java, C, JavaScript (NodeJS, express), MIPS assembly, PostgreSQL.
+
 <h2>Projects</h2>
 <h3>Web Broadcaster Software</h3>
 <p>
-    A web application designed for the user to get a quick and easy livestream going on <a href="https://twitch.tv">Twitch</a>. It can be accessed at: <a href="https://webbroadcastersoftware.me">webbroadcastersoftware.me</a>
+    A web application designed for the user to get a quick and easy livestream going on <a href="https://twitch.tv">Twitch</a>.
+    <ul>
+        <li>used Node.js to provide the backend for the web application</li>
+        <li>sent video data to Twitch using FFmpeg and its RTMP client</li>
+        <li>opened a persistent connection to stream binary data to Twitch using WebSockets</li>
+        <li>implemented use of a Microphone and Camera into the stream using MediaDevices</li>
+        <li>rest of the information/technolgies regarding the web application can be read on the github README here: <a href="https://github.com/charliexie27/project-chariki">Web Broadcaster Software</a></li>
+    </ul>
+</p>
+<h3>High Noon Bot</h3>
+<p>
+    A small robot that shoots (a harmless laser) towards targets given the radial location of the targets.
+    <ul>
+        <li>used an <a href="https://www.intel.com/content/www/us/en/programmable/solutions/partners/partner-profile/terasic-inc-/board/altera-de2-115-development-and-education-board.html">Alteria DE2 FPGA board</a> as the "brains" of the robot</li>
+        <li>used Verilog to program the FPGA board</li>
+        <li>A video demonstration can be seen here: <a href="https://youtu.be/zFuITvdJGbA">High Noon Bot</a></li>
+    </ul>
 </p>
 <h3>Hosting applications on major cloud platforms</h3>
 <p>
-    Using technologies such as Cloudflare, Google Cloud Platform, DigitalOcean, Nginx reverse proxies, letsencrypt, and PM2 to host applications such as Web Broadcaster Software and others. An example of such web-hosted application can be accessed here: <a href="https://crewlink.pausechamp.tk">crewlink.pausechamp.tk</a>
+    <ul>
+        <li>used Cloudflare for DDOS protection as well as DNS and TLS certificate management</li>
+        <li>rented/hosted a linux virtual machine on Google Cloud Platform and DigitalOcean</li>
+        <li>managed different domain requests going to the same VM with a Nginx reverse proxy</li>
+        <li>secured HTTP requests using letsencrypt and certbot to manage and renew certificates</li>
+        <li>managed web applications running on the VM using PM2</li>
+        <li>An example of such web-hosted application can be accessed here: <a href="https://crewlink.pausechamp.tk">crewlink.pausechamp.tk</a></li>
+    </ul>
 </p>
-<h3>Various assignments from CSCD27: Computer and Network Security</h3>
+<h3>Deliverables from CSCD27: Computer and Network Security</h3>
 <p>
-    The assignments in the course can be looked as individual capture-the-flag type mini-projects. These include hash-length extension attacks, XSS, buffer overflow attacks, dabbling with metasploit, and using <a href="https://www.nsa.gov/resources/everyone/ghidra/">Ghidra</a> to reverse-engineer binaries.
+    <ul>
+        <li>used malicious http requests with python to perform a hash-length extension attack on a web application</li>
+        <li>used python to inject malicious javascript into a vulnerable web application and expose what should be private information</li>
+        <li>exploited vulnerable C binaries that used unsafe functions using a buffer-overflow attack to inject shellcode and gain access to root</li>
+        <li>used metasploit, OpenVAS, etc. to attack a vulnerable linux system and used CVE information on programs running to gain access to root</li>
+        <li>used <a href="https://www.nsa.gov/resources/everyone/ghidra/">Ghidra</a> to reverse-engineer and figure out the access code of a binary.</li>
+    </ul>
 </p>
 
 <h2>Professional</h2>
