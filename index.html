@@ -27,45 +27,46 @@ author_profile: true
 My interests include cybersecurity, penetration testing, and web development. I have previously worked with the following: Python, Java, C, JavaScript (NodeJS, express), MIPS assembly, PostgreSQL.
 
 <h2>Projects</h2>
-<h3>Web Broadcaster Software</h3>
+<h3><a href="https://github.com/charliexie27/project-chariki">Web Broadcaster Software</a></h3>
 <p>
     A web application designed for the user to get a quick and easy livestream going on <a href="https://twitch.tv">Twitch</a>.
     <ul>
-        <li>used Node.js to provide the backend for the web application</li>
-        <li>sent video data to Twitch using FFmpeg and its RTMP client</li>
-        <li>opened a persistent connection to stream binary data to Twitch using WebSockets</li>
-        <li>implemented use of a Microphone and Camera into the stream using MediaDevices</li>
-        <li>rest of the information/technolgies regarding the web application can be read on the github README here: <a href="https://github.com/charliexie27/project-chariki">Web Broadcaster Software</a></li>
+        <li>Created a persistent connection to stream binary data using WebSockets and Node.js</li>
+        <li>Enabled video streaming with the FFmpeg library and the RTMP protocol</li>
+        <li>Implemented microphone and camera integration using MediaDevices</li>
     </ul>
 </p>
 <h3>High Noon Bot</h3>
 <p>
-    A small robot that shoots (a harmless laser) towards targets given the radial location of the targets.
+    A small robot that shoots a harmless laser at targets given their radial location.
     <ul>
-        <li>used an <a href="https://www.intel.com/content/www/us/en/programmable/solutions/partners/partner-profile/terasic-inc-/board/altera-de2-115-development-and-education-board.html">Alteria DE2 FPGA board</a> as the "brains" of the robot</li>
-        <li>used Verilog to program the FPGA board</li>
+        <li>Programmed target tracking system using Verilog on an <a href="https://www.intel.com/content/www/us/en/programmable/solutions/partners/partner-profile/terasic-inc-/board/altera-de2-115-development-and-education-board.html">Alteria DE2 FPGA board</a></li>
+        <li>Target locations can be manually inputted using the buttons and 7-segment display on the board</li>
+        <li>Mounted the laser, which is connected to the FPGA board, on top of a servo motor to provide the pivoting
+            movement for aiming</li>
         <li>A video demonstration can be seen here: <a href="https://youtu.be/zFuITvdJGbA">High Noon Bot</a></li>
     </ul>
 </p>
-<h3>Hosting applications on major cloud platforms</h3>
+<h3>Cloud Platform Hosting and Deployment</h3>
 <p>
     <ul>
-        <li>used Cloudflare for DDOS protection as well as DNS and TLS certificate management</li>
-        <li>rented/hosted a linux virtual machine on Google Cloud Platform and DigitalOcean</li>
-        <li>managed different domain requests going to the same VM with a Nginx reverse proxy</li>
-        <li>secured HTTP requests using letsencrypt and certbot to manage and renew certificates</li>
-        <li>managed web applications running on the VM using PM2</li>
-        <li>An example of such web-hosted application can be accessed here: <a href="https://crewlink.pausechamp.tk">crewlink.pausechamp.tk</a></li>
+        <li>Managed DNS and TLS certificates, and enabled DDOS protection using Cloudflare</li>
+        <li>Setup an Nginx reverse proxy to route different domain requests going to the same VM</li>
+        <li>Secured HTTP requests using letsencrypt and certbot to manage and renew certificates</li>
+        <li>Managed web applications on Google Cloud Platform and DigitalOcean with PM2</li>
+        <li>An example of such web-hosted application is a server application for <a href="https://github.com/ottomated/crewlink">Crewlink</a>, which can be accessed here: <a href="https://crewlink.pausechamp.tk">crewlink.pausechamp.tk</a></li>
     </ul>
 </p>
 <h3>Deliverables from CSCD27: Computer and Network Security</h3>
 <p>
     <ul>
-        <li>used malicious http requests with python to perform a hash-length extension attack on a web application</li>
-        <li>used python to inject malicious javascript into a vulnerable web application and expose what should be private information</li>
-        <li>exploited vulnerable C binaries that used unsafe functions using a buffer-overflow attack to inject shellcode and gain access to root</li>
-        <li>used metasploit, OpenVAS, etc. to attack a vulnerable linux system and used CVE information on programs running to gain access to root</li>
-        <li>used <a href="https://www.nsa.gov/resources/everyone/ghidra/">Ghidra</a> to reverse-engineer and figure out the access code of a binary.</li>
+        <li>Used malicious HTTP requests with Python to forge a legitimate looking HTTP request by performing a hashlength
+            extension attack on a web application</li>
+        <li>Used cross-site scripting to inject malicious JavaScript into a vulnerable web application and expose what should
+            be private information such as cookies</li>
+        <li>Exploited vulnerable C binaries with a buffer overflow attack to inject shellcode and gain root access</li>
+        <li>Gained root access to vulnerable linux system utilizing CVE information along with metasploit and OpenVAS</li>
+        <li>Reverse-engineered a binary with <a href="https://www.nsa.gov/resources/everyone/ghidra/">Ghidra</a> to uncover its access code</li>
     </ul>
 </p>
 
@@ -73,8 +74,8 @@ My interests include cybersecurity, penetration testing, and web development. I 
 <div class="container">
     <div class="title-location">
         <p><b>QA/Localization</b></p>
-        <p>Did informal quality assurance for pre-release games as well as localizing games from English to Japanese.</p>
-        <p><a href="https://www.entalize.co.jp/english/">Entalize co. ltd.</a></p>
+        <p>Did informal quality assurance for pre-release games as well as localizing games from English to Japanese</p>
+        <p><a href="https://www.entalize.co.jp/english/">Entalize</a></p>
     </div>
     <div>June 2019 - August 2019</div>
 </div>
