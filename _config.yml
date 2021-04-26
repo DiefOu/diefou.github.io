@@ -56,13 +56,13 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Taiki Takinami"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : ""
+  name: "Taiki Takinami"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: ""
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://taikitakinami.tech"
+      url: "https://taiki.tech"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/diefou"
